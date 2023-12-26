@@ -76,7 +76,7 @@ experiences:
         time: 2016 - Present
         company: SoftServe, Lviv
         details: |
-          I evolved from a Middle Engineer to a Lead, guiding a team of three developers over three impactful years.  In leadership, I was involved in implementing a web browser based on network stack from Chromium's low-level C++ socket layer. This browser, seamlessly integrated into an ecosystem, facilitates secure access to intranet resources without the need for VPN services.
+          I evolved from a Middle Engineer to a Lead, guiding a team of three developers over three impactful years. In leadership, I was involved in implementing a web browser based on network stack from Chromium's low-level C++ socket layer. This browser, seamlessly integrated into an ecosystem, facilitates secure access to intranet resources without the need for VPN services.
 
           Beyond project responsibilities, I conduct performance reviews on a company-wide scale. My involvement in external candidate interviews played a pivotal role in expanding the company to Ukraine, Poland, Bulgaria, and Latin America. Additionally, I serve as an external expert, contributing to various projects and helping teams within the company achieve their goals.
             - Swift
@@ -94,7 +94,7 @@ experiences:
         company: TechMagic inc., Lviv
         details: |
           Embarked on my iOS development journey here, contributing to two impactful projects.
-          Led the iOS development for a location-based event discovery app, ensuring seamless cross-device functionality. Collaborated closely with cross-functional teams to create a unified codebase.
+          Led the iOS development for a location-based event discovery app, ensuring seamless cross-device functionality. Collaborated closely with cross-functional teams to create a unified experience.
           Pioneered the implementation of Bluetooth Low Energy devices for a gamified children's social network, utilizing Core Location, Core Bluetooth, and Core Data.
             - Objective-C
             - Core Location
@@ -131,7 +131,7 @@ projects:
     assignments:
       - title: RHVoice iOS
         link: "https://apps.apple.com/ua/app/rhvoice/id6444378148"
-        tagline: "It is a versatile and open-source multilingual speech synthesizer featuring a variety of voices, now accessible on iOS."
+        tagline: "It is a versatile and open-source multilingual speech synthesizer featuring a variety of voices, now accessible on iOS. This app is completely free and written using SwiftUI only"
 
       - title: TippyTalk Mobile
         link: "https://apps.apple.com/us/app/tippytalk-mobile/id1585240851"
@@ -139,7 +139,7 @@ projects:
 
       - title: I Say...
         link: "https://apps.apple.com/ua/app/я-кажу/id6472052680"
-        tagline: "I Say is a Ukrainian application designed to simplify communication for individuals facing temporary or persistent speech difficulties. It aims to provide a dedicated library of communication phrases for various scenarios."
+        tagline: "I Say is a Ukrainian application designed to simplify communication for individuals facing temporary or persistent speech difficulties. It aims to provide a dedicated library of communication phrases for various scenarios"
 
 oss:
     title: Open Source
