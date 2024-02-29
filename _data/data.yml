@@ -1,6 +1,6 @@
 
 sidebar:
-    position: left # position of the sidebar : left or right
+    position: right # position of the sidebar : left or right
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -11,7 +11,7 @@ sidebar:
     email: ihorshev@gmail.com
     phone: +1 (385) 443-9478
     timezone: Mountain Standard Time
-    location: Lehi, Utah, USA
+    location: Lehi, Utah, USA, 84043
     citizenship: Ukraine
     linkedin: IhorShevchuk
     github: IhorShevchuk

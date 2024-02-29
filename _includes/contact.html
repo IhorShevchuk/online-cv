@@ -15,19 +15,19 @@
 
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
-      <a href="https://www.google.com/search?&q={{ sidebar.citizenship }}">{{ sidebar.citizenship }}</a>
+      <a href="https://www.google.com/search?&q={{ sidebar.citizenship }}" target="_blank">{{ sidebar.citizenship }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="https://www.google.com/search?&q={{ sidebar.timezone }}">{{ sidebar.timezone }}</a>
+      <a href="https://www.google.com/search?&q={{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.location %}
     <li class="location"><i class="fas fa-mountain-city"></i>
-      <a href="https://www.google.com/maps/place/{{ sidebar.location }}">{{ sidebar.location }}</a>
+      <a href="https://www.google.com/maps/place/{{ sidebar.location }}" target="_blank">{{ sidebar.location }}</a>
     </li>
     {% endif %}
 
