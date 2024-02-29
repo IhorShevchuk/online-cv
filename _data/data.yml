@@ -89,25 +89,27 @@ experiences:
         company: SoftServe (Contractor) | Lehi, Utah
         details: |
             The client is a USA based company that manufactured PC peripherals. The team of 5 engineers had the goal to build from the ground up a connector for the backend. The connector enabled the sync between two apps. The specifics of the collaboration were very tight deadlines and the need to use newly launched technologies, which the team had to learn on the fly.
-            Responsibilities & achievements
-            •	Integrated the Sentry crash reporter into a newly launched solution to collect customers’ data.
-            •	Refactored the bunch of legacy code by extracting methods from long method.
-            •	Implemented the logger functionality, including saving logs to simplify troubleshooting. 
-            •	Refactored the solution by removing no longer needed elements and 3rd-party modules, which reduced binary size by 30% and improved the overall performance.
-            Technology stack used
-            C++, Python, macOS, Windows, Protobuf, CMake, Gitlab CI, conan, asio
+            <br><br><b>Responsibilities & achievements</b>
+            <ul>
+             <li>Integrated the Sentry crash reporter into a newly launched solution to collect customers’ data</li>
+             <li>Refactored the bunch of legacy code by extracting methods from long method</li>
+             <li>Implemented the logger functionality, including saving logs to simplify troubleshooting</li>
+             <li>Refactored the solution by removing no longer needed elements and 3rd-party modules, which reduced binary size by 30% and improved the overall performance</li>
+            </ul>
+            <b>Technology stack used</b>: C++, Python, macOS, Windows, Protobuf, CMake, Gitlab CI, conan, asio
       - role: Senior iOS Developer
         time: April 2022 - Now
         company: TippyTalk (Part Time) | Atlanta, GA
         details: |
             Based in Georgia, USA, the client owned a communication solution that helped non-verbal and speech-impaired persons of all ages communicate with the world. The development team consisted of 4 engineers, who migrated the iOS app from UIKit to SwiftUI and significantly extended the existing functionality. While developing new functionality, we also had to consider the two main challenges: the need to support the old iOS 13 to keep the subscription cost low and the integration with  the C++ library to provide a bigger selection of voices.
-            Responsibilities & achievements
-            •	Migrated UI to SwiftUI, which reduced further efforts on implementing new UI by 30%.
-            •	Set up the CI/CD pipelines from scratch, which significantly improved the test coverage.
-            •	Introduced the use of the fastlane platform to automate the building and packaging procedures. 
-            •	Merged two standalone apps in one by converting one of them to Swift Package, which enhanced user interaction, simplifying 40% of the use cases and provided an integrated user experience.
-            Technology stack used
-            Swift, C++, UIKit, SwiftUI, Combine, Azure, GitHub Actions, fastlane, Realm
+            <br><br><b>Responsibilities & achievements</b>
+            <ul>
+             <li>Migrated UI to SwiftUI, which reduced further efforts on implementing new UI by 30%</li>
+             <li>Set up the CI/CD pipelines from scratch, which significantly improved the test coverage</li>
+             <li>Introduced the use of the fastlane platform to automate the building and packaging procedures</li>
+             <li>Merged two standalone apps in one by converting one of them to Swift Package, which enhanced user interaction, simplifying 40% of the use cases and provided an integrated user experience</li>
+            </ul>
+            <b>Technology stack used</b>: Swift, C++, UIKit, SwiftUI, Combine, Azure, GitHub Actions, fastlane, Realm
 
       - role: Lead iOS Software Engineer
         time: March 2016 - December 2022
@@ -115,13 +117,14 @@ experiences:
         details: |
             The client was from Texas, USA and specialized in engineering a web browser that helped enterprise mobile app users to securely access intranet and popular web-based productivity apps using a device of choice. 
             I was responsible for the technical leadership of the team of 5 engineers. Our focus was on developing and maintaining the next generation mobile browser that offered secure, intuitive and collaborative user experience. It enabled to safely segregate corporate from personal data on iOS devices, personally owned or corporate liable, without compromising user privacy. Besides, the browser protected business data on the device, over the air and when shared between apps. The engineering challenges consisted in a huge user base and the need to comply with high security and compliance standards.
-            Responsibilities & achievements
-            •	Contributed to the development of the solution architecture and decisions on tool slack selection.
-            •	Implemented a Reader-mode functionality to simplify the usability of web pages.
-            •	Decreased the rate of defects escaping to production from 10% to less than 3% by refining the development process and introducing an SLA for promptly addressing newly identified defects.
-            •	Implemented a bidirectional communication layer between JavaScript and Swift, enhancing performance for forthcoming JavaScript-driven features.
-            Technology stack used
-            Swift, Objective-C, C++, SwiftUI, WebKit, Chromium, Jenkins, Gerrit, unit tests
+            <br><br><b>Responsibilities & achievements</b>
+            <ul>
+             <li>Contributed to the development of the solution architecture and decisions on tool slack selection</li>
+             <li>Implemented a Reader-mode functionality to simplify the usability of web pages</li>
+             <li>Decreased the rate of defects escaping to production from 10% to less than 3% by refining the development process and introducing an SLA for promptly addressing newly identified defects</li>
+             <li>Implemented a bidirectional communication layer between JavaScript and Swift, enhancing performance for forthcoming JavaScript-driven features</li>
+            </ul>
+            <b>Technology stack used</b>: Swift, Objective-C, C++, SwiftUI, WebKit, Chromium, Jenkins, Gerrit, unit tests
       
       - role: iOS Software Engineer
         time: October 2014 - March 2016
@@ -130,8 +133,7 @@ experiences:
           Embarked on my iOS development journey here, contributing to two impactful projects.
           Led the iOS development for a location-based event discovery app, ensuring seamless cross-device functionality. Collaborated closely with cross-functional teams to create a unified experience.
           Pioneered the implementation of Bluetooth Low Energy devices for a gamified children's social network, utilizing Core Location, Core Bluetooth, and Core Data.
-          Technology stack used
-          Objective-C, Core Location, Core Bluetooth, Github, Core Data, Alamofire
+          <b>Technology stack used</b>: Objective-C, Core Location, Core Bluetooth, Github, Core Data, Alamofire
 
 certifications:
       title: Certifications
