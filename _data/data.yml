@@ -1,6 +1,6 @@
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -9,8 +9,9 @@ sidebar:
 
     # Sidebar links
     email: ihorshev@gmail.com
-    #phone: +13854439478
+    phone: +1 (385) 443-9478
     timezone: Mountain Standard Time
+    location: Lehi, Utah, USA
     citizenship: Ukraine
     linkedin: IhorShevchuk
     github: IhorShevchuk
@@ -21,7 +22,7 @@ sidebar:
     codewars:
     hackerrank: IhorShevchuk
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: Ihor-Shevchuk.Resume.pdf
+    pdf: Ihor_Shevchuk_iOS_Engineer_CV.pdf
 
     languages:
       title: Languages
@@ -54,58 +55,83 @@ sidebar:
 career-profile:
     title: A Few Words About Me
     summary: |
-      I am a seasoned software engineer with 9 years of expertise in iOS mobile development. My journey in the realm of Cocoa Touch frameworks, alongside iOS technologies like WebKit, CoreData, CoreAnimation, AVFoundation, CoreLocation, QuartzCore, and MapKit, has been marked by a wealth of enriching experiences. These have empowered me to contribute significantly to exciting and innovative projects. 
+      <b>Professional focus</b>: Development of innovative mobile solutions for various industries in the Scrum and Lean environments. Team technical leadership, solutions architecture, engineering process optimization to effectively deliver high-quality solutions. 
       
-      My proficiency extends across a spectrum of programming languages, including Objective-C, Swift, C++, and JavaScript, further fueling my versatility as a developer. 
+      Technical proficiency in programming languages, including <b>Objective-C</b>, <b>Swift</b>, <b>JavaScript</b>, <b>С++</b>, and <b>Python</b>, coupled with extensive experience in using frameworks and libraries, such as Foundation, SwiftUI, UIKit, Combine, and iOS SDK. I’m also advancing my knowledge of async/await and TCA to write more efficient code with reduced complexity and enhanced productivity. Provision of consultancy services on mobile engineering to clients from all over the world on behalf of the Mobile Center of Excellence that consolidated the top experts.
       
-      Beyond technical prowess, I am known for my effective communication, sociability, and an innate ability to grasp business objectives and strategies swiftly. This has not only enabled me to find common ground and reach agreements effectively but has also allowed me to create compelling content spontaneously when needed. 
-      
-      Collaboration is where I thrive. Interacting with diverse teams from around the globe presents fresh challenges and opportunities for me to make our work together not only productive but enjoyable.
+      <b>Industry expertise</b>: Information technology and services, Outsourcing & consulting, Cybersecurity, Internet of Things (IoT), Hardware (PC peripherals), Smart home, Healthcare, Economics, Management
 education:
     title: Education
     info:
-      - degree: MSc in Applied Mathematics
+      - degree: MS in Financial and Economic Security Management
+        university: Lviv Polytechnic National University
+        time: September 2017 - December 2018
+        details:
+      - degree: MS in Applied Economics
+        university: Lviv Polytechnic National University
+        time: September 2016 - December 2017
+        details:
+      - degree: BS in Applied Mathematics
         university: Ivan Franko National University of Lviv
-        time: 2009 - 2014
-        details: |
+        time: September 2009 - June 2013
+        details:
+      - degree: MS in Applied Mathematics
+        university: Ivan Franko National University of Lviv
+        time: September 2013 - June 2014
+        details:
+        
 
 experiences:
     title: Experiences
     info:
-      - role: Lead/Senior Software Engineer
-        time: 2016 - Present
-        company: SoftServe, Lviv
+      - role: Senior Software Engineer
+        time: January 2023 - Now
+        company: SoftServe (Contractor) | Lehi, Utah
         details: |
-          I evolved from a Middle Engineer to a Lead, guiding a team of three developers over three impactful years. In leadership, I was involved in implementing a web browser based on network stack from Chromium's low-level C++ socket layer. This browser, seamlessly integrated into an ecosystem, facilitates secure access to intranet resources without the need for VPN services.
+            The client is a USA based company that manufactured PC peripherals. The team of 5 engineers had the goal to build from the ground up a connector for the backend. The connector enabled the sync between two apps. The specifics of the collaboration were very tight deadlines and the need to use newly launched technologies, which the team had to learn on the fly.
+            Responsibilities & achievements
+            •	Integrated the Sentry crash reporter into a newly launched solution to collect customers’ data.
+            •	Refactored the bunch of legacy code by extracting methods from long method.
+            •	Implemented the logger functionality, including saving logs to simplify troubleshooting. 
+            •	Refactored the solution by removing no longer needed elements and 3rd-party modules, which reduced binary size by 30% and improved the overall performance.
+            Technology stack used
+            C++, Python, macOS, Windows, Protobuf, CMake, Gitlab CI, conan, asio
+      - role: Senior iOS Developer
+        time: April 2022 - Now
+        company: TippyTalk (Part Time) | Atlanta, GA
+        details: |
+            Based in Georgia, USA, the client owned a communication solution that helped non-verbal and speech-impaired persons of all ages communicate with the world. The development team consisted of 4 engineers, who migrated the iOS app from UIKit to SwiftUI and significantly extended the existing functionality. While developing new functionality, we also had to consider the two main challenges: the need to support the old iOS 13 to keep the subscription cost low and the integration with  the C++ library to provide a bigger selection of voices.
+            Responsibilities & achievements
+            •	Migrated UI to SwiftUI, which reduced further efforts on implementing new UI by 30%.
+            •	Set up the CI/CD pipelines from scratch, which significantly improved the test coverage.
+            •	Introduced the use of the fastlane platform to automate the building and packaging procedures. 
+            •	Merged two standalone apps in one by converting one of them to Swift Package, which enhanced user interaction, simplifying 40% of the use cases and provided an integrated user experience.
+            Technology stack used
+            Swift, C++, UIKit, SwiftUI, Combine, Azure, GitHub Actions, fastlane, Realm
 
-          I also contributed to developing a cross-platform desktop application compatible with both macOS and Windows. This application serves as a central hub for communication among various software applications, providing essential services without the graphical user interface. Its primary function is to facilitate seamless communication between different applications, particularly those responsible for managing interactions with peripheral devices such as mice and keyboards, and the operating system.
-
-          Beyond project responsibilities, I conduct performance reviews on a company-wide scale. My involvement in external candidate interviews played a pivotal role in expanding the company to Ukraine, Poland, Bulgaria, and Latin America. Additionally, I serve as an external expert, contributing to various projects and helping teams within the company achieve their goals.
-            
-            - Swift
-            - Objective-C
-            - C++
-            - JavaScript
-            - Chromium
-            - WebKit, LocalAuthentication
-            - SwiftLint, Clang and Eslint
-            - Jenkins, GitLab CI
-            - Gerrit and Perforce
-            - OpenSSL
-            - CMake
+      - role: Lead iOS Software Engineer
+        time: March 2016 - December 2022
+        company: SoftServe (Contractor) | Dallas, TX
+        details: |
+            The client was from Texas, USA and specialized in engineering a web browser that helped enterprise mobile app users to securely access intranet and popular web-based productivity apps using a device of choice. 
+            I was responsible for the technical leadership of the team of 5 engineers. Our focus was on developing and maintaining the next generation mobile browser that offered secure, intuitive and collaborative user experience. It enabled to safely segregate corporate from personal data on iOS devices, personally owned or corporate liable, without compromising user privacy. Besides, the browser protected business data on the device, over the air and when shared between apps. The engineering challenges consisted in a huge user base and the need to comply with high security and compliance standards.
+            Responsibilities & achievements
+            •	Contributed to the development of the solution architecture and decisions on tool slack selection.
+            •	Implemented a Reader-mode functionality to simplify the usability of web pages.
+            •	Decreased the rate of defects escaping to production from 10% to less than 3% by refining the development process and introducing an SLA for promptly addressing newly identified defects.
+            •	Implemented a bidirectional communication layer between JavaScript and Swift, enhancing performance for forthcoming JavaScript-driven features.
+            Technology stack used
+            Swift, Objective-C, C++, SwiftUI, WebKit, Chromium, Jenkins, Gerrit, unit tests
+      
       - role: iOS Software Engineer
-        time: 2014 - 2016
-        company: TechMagic inc., Lviv
+        time: October 2014 - March 2016
+        company: TechMagic inc. | Lviv
         details: |
           Embarked on my iOS development journey here, contributing to two impactful projects.
           Led the iOS development for a location-based event discovery app, ensuring seamless cross-device functionality. Collaborated closely with cross-functional teams to create a unified experience.
           Pioneered the implementation of Bluetooth Low Energy devices for a gamified children's social network, utilizing Core Location, Core Bluetooth, and Core Data.
-            - Objective-C
-            - Core Location
-            - Core Bluetooth
-            - Github
-            - Core Data
-            - Alamofire
+          Technology stack used
+          Objective-C, Core Location, Core Bluetooth, Github, Core Data, Alamofire
 
 certifications:
       title: Certifications
@@ -148,7 +174,7 @@ projects:
 oss:
     title: Open Source
     intro: >
-      When I have free time I am trying to get involved into Open Source to help other developers, below you may find a list of those projects
+      Whenever I have free time I am trying to get involved into Open Source to help other developers, below you may find a list of those projects
     contributions:
       - title: TMFloatingButton
         link: "https://github.com/IhorShevchuk/TMFloatingButton"
