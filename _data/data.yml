@@ -24,15 +24,6 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: Ihor_Shevchuk_iOS_Engineer_CV.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Professional
-
-        - idiom: Ukranian
-          level: Native
-
     interests:
       title: Interests
       info:
@@ -53,7 +44,7 @@ sidebar:
           
 
 career-profile:
-    title: A Few Words About Me
+    title: About Me
     summary: |
       <b>Professional focus</b>: Development of innovative mobile solutions for various industries in the Scrum and Lean environments. Team technical leadership, solutions architecture, engineering process optimization to effectively deliver high-quality solutions. 
       
