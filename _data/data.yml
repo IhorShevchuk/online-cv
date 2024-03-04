@@ -10,9 +10,9 @@ sidebar:
     # Sidebar links
     email: ihorshev@gmail.com
     phone: +1 (385) 443-9478
-    timezone: Mountain Standard Time
+    timezone: Mountain Time
     location: Lehi, Utah, USA, 84043
-    citizenship: Ukraine
+    #citizenship: Ukraine
     linkedin: IhorShevchuk
     github: IhorShevchuk
     gitlab:

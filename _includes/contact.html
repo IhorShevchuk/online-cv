@@ -21,8 +21,28 @@
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="https://www.google.com/search?&q={{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }}</a>
+      
+      <a href="https://www.google.com/search?&q={{ sidebar.timezone }}" target="_blank"> 
+        <span id="current-time"></span> {{ sidebar.timezone }}
+      </a> 
     </li>
+
+    <script>
+      function updateTime() {
+          var currentTimeElement = document.getElementById('current-time');
+          var options = {
+            timeZone: 'America/Denver',
+            hour: 'numeric',
+            minute: 'numeric',
+          };
+          var currentTime = new Date().toLocaleTimeString('en-US', options);
+          currentTimeElement.innerHTML = currentTime;
+      }
+
+      setInterval(updateTime, 60000);
+      updateTime();
+    </script>
+
     {% endif %}
 
     {% if sidebar.location %}
