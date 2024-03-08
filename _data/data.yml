@@ -109,8 +109,8 @@ experiences:
             Created two iOS applications based on already existing C++ code of RHVoice TTS engine. Shipped them to users.
             <br><br><b>Responsibilities & achievements</b>
             <ul>
-             <li>Developed Text to Speech iOS engine by using RHVoice C++ code.</li>
-             <li>Created whitelabeled SwiftUI application from scratch and shipped it within several month.</li>
+             <li>Developed Text to Speech iOS engine from the scratch by using RHVoice C++ code.</li>
+             <li>Created and whitelabeled SwiftUI application from scratch and shipped it within three month.</li>
              <li>Implemented a wrapper around C++ code to use it in Swift.</li>
             </ul>
             <b>Technology stack used</b>: Swift, C++, SwiftUI, Combine, Jenkins, fastlane
