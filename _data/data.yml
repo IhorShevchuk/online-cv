@@ -4,7 +4,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Ihor Shevchuk
+    name: <a href="./">Ihor Shevchuk</a>
     tagline: iOS Software Engineer 
 
     # Sidebar links
@@ -77,7 +77,7 @@ experiences:
     info:
       - role: Senior Software Engineer
         time: January 2023 - Now
-        company: SoftServe (Contractor) | Lehi, Utah
+        company: SoftServe (Contractor) | Remote, USA
         details: |
             The client is a USA based company that manufactured PC peripherals. The team of 5 engineers had the goal to build from the ground up a connector for the backend. The connector enabled the sync between two apps. The specifics of the collaboration were very tight deadlines and the need to use newly launched technologies, which the team had to learn on the fly.
             <br><br><b>Responsibilities & achievements</b>
@@ -90,21 +90,34 @@ experiences:
             <b>Technology stack used</b>: C++, Python, macOS, Windows, Protobuf, CMake, Gitlab CI, conan, asio
       - role: Senior iOS Developer
         time: April 2022 - Now
-        company: TippyTalk (Part Time) | Atlanta, GA
+        company: TippyTalk | Remote, Ukraine
         details: |
             Based in Georgia, USA, the client owned a communication solution that helped non-verbal and speech-impaired persons of all ages communicate with the world. The development team consisted of 4 engineers, who migrated the iOS app from UIKit to SwiftUI and significantly extended the existing functionality. While developing new functionality, we also had to consider the two main challenges: the need to support the old iOS 13 to keep the subscription cost low and the integration with  the C++ library to provide a bigger selection of voices.
             <br><br><b>Responsibilities & achievements</b>
             <ul>
              <li>Migrated UI to SwiftUI, which reduced further efforts on implementing new UI by 30%</li>
-             <li>Set up the CI/CD pipelines from scratch, which significantly improved the test coverage</li>
+             <li>Established CI/CD pipelines from scratch, significant amount of time for publishing app to beta testers.</li>
              <li>Introduced the use of the fastlane platform to automate the building and packaging procedures</li>
              <li>Merged two standalone apps in one by converting one of them to Swift Package, which enhanced user interaction, simplifying 40% of the use cases and provided an integrated user experience</li>
             </ul>
-            <b>Technology stack used</b>: Swift, C++, UIKit, SwiftUI, Combine, Azure, GitHub Actions, fastlane, Realm
+            <b>Technology stack used</b>: Swift, C++, UIKit, SwiftUI, Combine, Azure, GitHub Actions, fastlane, Realm, UI Tests
+
+      - role: Senior iOS Developer
+        time: May 2022 - December 2022
+        company: RHVoice | Remote, Ukraine
+        details: |
+            Created two iOS applications based on already existing C++ code of RHVoice TTS engine. Shipped them to users.
+            <br><br><b>Responsibilities & achievements</b>
+            <ul>
+             <li>Developed Text to Speech iOS engine by using RHVoice C++ code.</li>
+             <li>Created whitelabeled SwiftUI application from scratch and shipped it within several month.</li>
+             <li>Implemented a wrapper around C++ code to use it in Swift.</li>
+            </ul>
+            <b>Technology stack used</b>: Swift, C++, SwiftUI, Combine, Jenkins, fastlane
 
       - role: Lead iOS Software Engineer
         time: March 2016 - December 2022
-        company: SoftServe (Contractor) | Dallas, TX
+        company: SoftServe (Contractor) | Remote, USA
         details: |
             The client was from Texas, USA and specialized in engineering a web browser that helped enterprise mobile app users to securely access intranet and popular web-based productivity apps using a device of choice. 
             I was responsible for the technical leadership of the team of 5 engineers. Our focus was on developing and maintaining the next generation mobile browser that offered secure, intuitive and collaborative user experience. It enabled to safely segregate corporate from personal data on iOS devices, personally owned or corporate liable, without compromising user privacy. Besides, the browser protected business data on the device, over the air and when shared between apps. The engineering challenges consisted in a huge user base and the need to comply with high security and compliance standards.
@@ -115,7 +128,7 @@ experiences:
              <li>Decreased the rate of defects escaping to production from 10% to less than 3% by refining the development process and introducing an SLA for promptly addressing newly identified defects</li>
              <li>Implemented a bidirectional communication layer between JavaScript and Swift, enhancing performance for forthcoming JavaScript-driven features</li>
             </ul>
-            <b>Technology stack used</b>: Swift, Objective-C, C++, SwiftUI, WebKit, Chromium, Jenkins, Gerrit, unit tests
+            <b>Technology stack used</b>: Swift, Objective-C, C++, SwiftUI, WebKit, Chromium, Jenkins, Gerrit, Unit Test
       
       - role: iOS Software Engineer
         time: October 2014 - March 2016
