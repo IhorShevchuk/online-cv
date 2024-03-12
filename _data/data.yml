@@ -5,7 +5,8 @@ sidebar:
 
     # Profile information
     name: <a href="./">Ihor Shevchuk</a>
-    tagline: iOS Software Engineer 
+    tagline: iOS Software Engineer <i class="fa-brands fa-apple"></i>
+    avatar: avatar.png
 
     # Sidebar links
     email: ihorshev@gmail.com
@@ -77,7 +78,7 @@ experiences:
     info:
       - role: Senior Software Engineer
         time: January 2023 - Now
-        company: SoftServe (Contractor) | Remote, USA
+        company: <a href="https://www.softserveinc.com/">SoftServe</a> (Contractor) | Remote, USA
         details: |
             The client is a USA based company that manufactured PC peripherals. The team of 5 engineers had the goal to build from the ground up a connector for the backend. The connector enabled the sync between two apps. The specifics of the collaboration were very tight deadlines and the need to use newly launched technologies, which the team had to learn on the fly.
             <br><br><b>Responsibilities & achievements</b>
@@ -104,7 +105,7 @@ experiences:
 
       - role: Senior iOS Developer
         time: May 2022 - December 2022
-        company: RHVoice | Remote, Ukraine
+        company: <a href="https://nonroutine.com">Non-Routine LLC</a> | Remote, Ukraine
         details: |
             Created two iOS applications based on already existing C++ code of RHVoice TTS engine. Shipped them to users.
             <br><br><b>Responsibilities & achievements</b>
@@ -117,7 +118,7 @@ experiences:
 
       - role: Lead iOS Software Engineer
         time: March 2016 - December 2022
-        company: SoftServe (Contractor) | Remote, USA
+        company: <a href="https://www.softserveinc.com/">SoftServe</a> (Contractor) | Remote, USA
         details: |
             The client was from Texas, USA and specialized in engineering a web browser that helped enterprise mobile app users to securely access intranet and popular web-based productivity apps using a device of choice. 
             I was responsible for the technical leadership of the team of 5 engineers. Our focus was on developing and maintaining the next generation mobile browser that offered secure, intuitive and collaborative user experience. It enabled to safely segregate corporate from personal data on iOS devices, personally owned or corporate liable, without compromising user privacy. Besides, the browser protected business data on the device, over the air and when shared between apps. The engineering challenges consisted in a huge user base and the need to comply with high security and compliance standards.
@@ -187,7 +188,7 @@ oss:
         tagline: "This project was created back in days when there were no material design buttons UI frameworks and we had to came up with our own one."
 
       - title: RHVoice
-        link: "https://github.com/RHVoice/RHVoice/pulls?q=is%3Apr+author%3Aihorshevchuk+"
+        link: "https://github.com/IhorShevchuk/RHVoice-spm"
         tagline: "This is C++ crossplatfrom speech synthesizer for variaty of languages. My part here was to add iOS and macOS implementation."
 
       - title: WebArchiveExtractor
